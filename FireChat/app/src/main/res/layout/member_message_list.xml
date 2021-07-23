@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/background_msg"
+    android:padding="15dp"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvtime"
+        android:text="date"
+        android:padding="5dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvmsg"
+        android:textColor="@color/black"
+        android:textSize="16sp"
+        android:layout_marginLeft="5dp"
+        android:textStyle="bold"
+        android:visibility="gone"
+        android:text="message"
+        />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:src="@drawable/radio"
+        android:scaleType="fitXY"
+        android:id="@+id/ivmsg"
+        android:visibility="gone"
+        />
+</LinearLayout>

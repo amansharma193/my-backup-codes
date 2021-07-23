@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1098595588724",
+    "firebase_url": "https://skychat-10b79.firebaseio.com",
+    "project_id": "skychat-10b79",
+    "storage_bucket": "skychat-10b79.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098595588724:android:9c4f64c04fff0d34208f21",
+        "android_client_info": {
+          "package_name": "com.e.skychat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1098595588724-1jepgoeuu496a48360oorgp6fp5asllj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.e.skychat",
+            "certificate_hash": "fb1b93bdbaf80011e43872e1431a96cea0dfeab6"
+          }
+        },
+        {
+          "client_id": "1098595588724-4vd877743jcsno38lmqs8hvi47cgr65u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqyLvBkB3Us8jixbOjFdWVrovt_v86chQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1098595588724-4vd877743jcsno38lmqs8hvi47cgr65u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

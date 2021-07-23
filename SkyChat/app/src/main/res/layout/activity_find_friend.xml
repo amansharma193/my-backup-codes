@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+   <androidx.appcompat.widget.Toolbar
+       android:layout_width="match_parent"
+       android:layout_height="?attr/actionBarSize"
+       android:id="@+id/findFriendToolBar"
+       android:background="@color/actionBarGreen">
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:orientation="horizontal"
+          android:weightSum="1">
+       <ImageView
+           android:layout_width="0dp"
+           android:layout_weight="0.1"
+           android:layout_height="match_parent"
+           android:src="@drawable/ic_back_arrow"
+           android:id="@+id/ivGoToBack"
+          />
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="0.8"
+              android:layout_height="match_parent"
+              android:text="Find friend"
+              android:textColor="@color/white"
+              android:paddingLeft="15dp"
+              android:gravity="center_vertical"
+               android:textStyle="bold"
+              android:textSize="14sp"
+              android:layout_marginRight="15dp"
+              android:layout_marginTop="5dp"
+              android:layout_marginLeft="5dp"
+              android:paddingRight="10dp"
+              android:id="@+id/tvText"/>
+       <EditText
+           android:layout_width="0dp"
+           android:layout_weight="0.8"
+           android:layout_height="match_parent"
+           android:hint="Friend name"
+           android:textColorHint="@color/actionBarGreen"
+           android:paddingLeft="15dp"
+           android:background="@drawable/ll_decorator"
+           android:layout_marginRight="15dp"
+           android:layout_marginTop="5dp"
+           android:layout_marginLeft="5dp"
+           android:paddingRight="10dp"
+           android:visibility="gone"
+           android:id="@+id/etFindFriend"/>
+
+       <ImageView
+           android:layout_width="0dp"
+           android:layout_weight="0.1"
+           android:layout_height="match_parent"
+           android:src="@drawable/ic_search"
+           android:layout_marginRight="10dp"
+           android:id="@+id/ivSearch"
+           />
+      </LinearLayout>
+   </androidx.appcompat.widget.Toolbar>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/rv"
+        android:background="@color/actionBarGreen"
+        android:layout_below="@id/findFriendToolBar"/>
+</RelativeLayout>

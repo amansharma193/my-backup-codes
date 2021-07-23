@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "967945375598",
+    "firebase_url": "https://digitalsignature-b008f-default-rtdb.firebaseio.com",
+    "project_id": "digitalsignature-b008f",
+    "storage_bucket": "digitalsignature-b008f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:967945375598:android:4cf39139e24301e2127b7f",
+        "android_client_info": {
+          "package_name": "com.freelannceritservices.digitalsignature"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "967945375598-f8lbu1e3s1li64ao816b5qf2j3cfei2o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmpyd7dtkmrhGBh8dqmtDcP44ziRYdwlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "967945375598-f8lbu1e3s1li64ao816b5qf2j3cfei2o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

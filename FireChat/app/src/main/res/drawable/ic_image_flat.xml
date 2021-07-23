@@ -1,0 +1,30 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path
+        android:fillColor="@color/colorPrimaryDark"
+        android:name="background"
+        android:pathData="m32 0c17.68 0 32 14.32 32 32c0 17.68 -14.32 32 -32 32c-17.68 0 -32 -14.32 -32 -32c0 -17.68 14.32 -32 32 -32z" />
+    <path
+        android:fillColor="#fff"
+        android:name="photo outer"
+        android:pathData="m52 16v32c0 0.55 -0.45 1 -1 1h-38c-0.55 0 -1 -0.45 -1 -1v-32c0 -0.55 0.45 -1 1 -1h38c0.55 0 1 0.45 1 1z" />
+    <path
+        android:fillColor="#4ecbfb"
+        android:name="photo background"
+        android:pathData="m15 44v-26h34v26h-34z" />
+    <path
+        android:fillColor="#fff432"
+        android:name="sun"
+        android:pathData="m39.61 21c1.87 0 3.39 1.56 3.39 3.48c0 1.93 -1.52 3.49 -3.39 3.49c-1.86 0 -3.38 -1.56 -3.38 -3.49c0 -1.92 1.52 -3.48 3.38 -3.48z" />
+    <path
+        android:fillColor="#3db47b"
+        android:name="mountain2"
+        android:pathData="m39.87 33.41 -4.32 5.16 -4.55 5.43h8.75h9.25l-9.13 -10.59z" />
+    <path
+        android:fillColor="#2f9d6b"
+        android:name="mountain1"
+        android:pathData="m35.55 38.57 -8.18 -10.57 -12.37 16h16h8.75l-4.2 -5.43z" />
+</vector>

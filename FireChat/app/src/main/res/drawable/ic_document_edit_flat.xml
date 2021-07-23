@@ -1,0 +1,66 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path
+        android:fillColor="@color/colorPrimaryDark"
+        android:name="background"
+        android:pathData="m32 0c17.68 0 32 14.32 32 32c0 17.68 -14.32 32 -32 32c-17.68 0 -32 -14.32 -32 -32c0 -17.68 14.32 -32 32 -32z" />
+    <path
+        android:fillColor="#fff"
+        android:name="paper"
+        android:pathData="m41.75 10 8.25 7.81v34.77c0 0.78 -0.67 1.42 -1.5 1.42h-33c-0.83 0 -1.5 -0.64 -1.5 -1.42v-41.16c0 -0.78 0.67 -1.42 1.5 -1.42h26.25z" />
+    <path
+        android:fillColor="#d2d4dc"
+        android:name="paper fold"
+        android:pathData="m50 17.81h-8.25v-7.81l8.25 7.81z" />
+    <path
+        android:fillColor="#f16c9f"
+        android:name="eraser"
+        android:pathData="m49.83 23.09 4.17 -4.09c0.78 -0.78 2.05 -0.78 2.83 0l4.17 4.17c0.78 0.78 0.78 2.05 0 2.83l-4.09 4.16l-7.08 -7.07z" />
+    <path
+        android:fillColor="#c0dbf6"
+        android:name="eraser holder right"
+        android:pathData="m58.03 29.03 -1.12 1.13 -1.53 -1.53 1.12 -1.13 1.5 1.5 0.03 0.03z" />
+    <path
+        android:fillColor="#9eb9d0"
+        android:name="eraser holder mid"
+        android:pathData="m56.5 27.5 -1.12 1.13 -4 -4 1.12 -1.13 4 4z" />
+    <path
+        android:fillColor="#c0dbf6"
+        android:name="eraser holder left"
+        android:pathData="m49.99 22.93 0.97 -0.96 0.04 0.03 1.5 1.5 -1.12 1.13 -1.55 -1.54 0.16 -0.16z" />
+    <path
+        android:fillColor="#e7c5a9"
+        android:name="pencil wood tip"
+        android:pathData="m34 42 4 4v3h-4l-3 -3v-4h3z" />
+    <path
+        android:fillColor="#d2d4dc"
+        android:name="line3"
+        android:pathData="m34 26c0.55 0 1 0.45 1 1c0 0.55 -0.45 1 -1 1h-15.05c-0.55 0 -1 -0.45 -1 -1c0 -0.55 0.45 -1 1 -1h15.05z" />
+    <path
+        android:fillColor="#d2d4dc"
+        android:name="line 2"
+        android:pathData="m43 21c0.55 0 1 0.45 1 1c0 0.55 -0.45 1 -1 1h-24.05c-0.55 0 -1 -0.45 -1 -1c0 -0.55 0.45 -1 1 -1h24.05z" />
+    <path
+        android:fillColor="#d2d4dc"
+        android:name="line1"
+        android:pathData="m36.81 16c0.55 0 1 0.45 1 1c0 0.55 -0.45 1 -1 1h-17.86c-0.55 0 -1 -0.45 -1 -1c0 -0.55 0.45 -1 1 -1h17.86z" />
+    <path
+        android:fillColor="#000"
+        android:name="pencil lead tip"
+        android:pathData="m34 49h-3v-3l3 3z" />
+    <path
+        android:fillColor="#000"
+        android:name="line 4"
+        android:pathData="m26 47c0.55 0 1 0.45 1 1c0 0.55 -0.45 1 -1 1h-7.05c-0.55 0 -1 -0.45 -1 -1c0 -0.55 0.45 -1 1 -1h7.05z" />
+    <path
+        android:fillColor="#f3a744"
+        android:name="pencil body"
+        android:pathData="m56.91 30.16 -18.91 18.84v-3l-4 -4h-3v-0.07l18.84 -18.84l7.07 7.07z" />
+    <path
+        android:fillColor="#f6d753"
+        android:name="pencil mid"
+        android:pathData="m55.38 28.63 -17.38 17.37h-4v-4l17.38 -17.37l4 4z" />
+</vector>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/ivstory"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:background="@color/white"
+        android:layout_height="match_parent"
+        />
+    <VideoView
+        android:id="@+id/vdstory"
+        android:layout_width="fill_parent"
+        android:fitsSystemWindows="true"
+        android:layout_marginTop="70dp"
+        android:visibility="gone"
+        android:layout_marginBottom="50dp"
+        android:layout_height="500dp"
+        />
+    <hani.momanii.supernova_emoji_library.Helper.EmojiconTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtstatus"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        />
+    <hani.momanii.supernova_emoji_library.Helper.EmojiconEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:hint="Enter Something"
+        android:textSize="18sp"
+        android:padding="7dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/white"
+        android:id="@+id/caption"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/btncreate"
+        />
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btncreate"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="10dp"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:src="@drawable/send"
+        android:layout_marginBottom="10dp"
+        />
+</RelativeLayout>
