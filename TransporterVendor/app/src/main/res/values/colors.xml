@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0391D1</color>
+    <color name="colorPrimaryDark">#056F9F</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="disable">#03A9F4</color>
+    <color name="grey">#818181</color>
+    <color name="green">@android:color/holo_green_dark</color>
+</resources>

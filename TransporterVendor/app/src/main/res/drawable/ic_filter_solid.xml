@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="64dp"
+    android:height="64dp"
+    android:viewportWidth="64"
+    android:viewportHeight="64">
+    <path
+        android:fillColor="@color/colorPrimary"
+        android:name="filter-solid"
+        android:pathData="m0 0 24 37v19l16 8v-27l24 -37h-64z" />
+</vector>

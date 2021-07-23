@@ -1,0 +1,41 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0391D1</item>
+        <item name="android:homeAsUpIndicator">@drawable/back</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="colorPrimaryDark">#056F9F</item>
+        <item name="colorAccent">#03A9F4</item>
+    </style>
+
+    <style name="SignUpTheme" parent="FirebaseUI">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#0391D1</item>
+        <item name="colorPrimaryDark">#056F9F</item>
+        <item name="colorAccent">#03A9F4</item>
+        <item name="android:screenOrientation">portrait</item>
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+    <style name="customRatingBar"
+        parent="android:style/Widget.Material.RatingBar.Small"
+        >
+        <item name="color">@color/green</item>
+        ... // Additional customizations
+
+    </style>
+    <style name="FirebaseUI.Button.AccountChooser.EmailButton">
+        <item name="drawableStartCompat">@drawable/email1</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@drawable/login_border_gradiant</item>
+        <item name="android:layout_marginBottom">75dp</item>
+    </style>
+
+    <style name="FirebaseUI.Button.AccountChooser.PhoneButton">
+        <item name="drawableStartCompat">@drawable/phone_login</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">@drawable/login_border_gradiant</item>
+        <item name="android:layout_marginBottom">25dp</item>
+    </style>
+
+</resources>

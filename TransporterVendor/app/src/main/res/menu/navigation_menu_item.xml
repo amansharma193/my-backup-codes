@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Profile">
+        <menu >
+    <item android:title="View Profile"
+    android:id="@+id/profile"
+    android:icon="@drawable/profile"/>
+    <item android:id="@+id/vehicle"
+        android:title="Manage Vehicle"
+        android:icon="@drawable/managevehicle"/>
+    <item android:title="Ratings &amp; Reviews"
+        android:id="@+id/rating"
+        android:icon="@drawable/rating"/>
+        </menu>
+    </item>
+    <item android:title="Information">
+        <menu >
+    <item android:title="Terms &amp; conditions"
+        android:id="@+id/terms"
+        android:icon="@drawable/terms"/>
+
+    <item android:title="Privacy Policy"
+        android:id="@+id/privacy"
+        android:icon="@drawable/privacy"/>
+    <item android:title="Contact Us"
+        android:id="@+id/contact"
+        android:icon="@drawable/ic_outline_phone_24"/>
+    <item android:title="About Us"
+        android:id="@+id/about"
+        android:icon="@drawable/ic_baseline_description_24"
+        />
+        </menu>
+    </item>
+    <item android:title="Language">
+        <menu>
+            <item android:title="हिन्दी"
+                android:id="@+id/hindi"
+                android:icon="@drawable/ic_baseline_description_24"
+                />
+            <item android:title="english"
+                android:id="@+id/english"
+                android:icon="@drawable/ic_baseline_description_24"
+                />
+        </menu>
+    </item>
+    <item android:id="@+id/logout"
+        android:title="Log out"
+        android:icon="@drawable/ic_baseline_exit_to_app_24"
+        />
+
+</menu>

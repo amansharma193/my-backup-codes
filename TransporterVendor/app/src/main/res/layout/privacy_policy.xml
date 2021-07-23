@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:id="@+id/appbar"
+        >
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/toolbar"
+            app:title="Privacy Policy"
+            app:titleTextColor="@color/white"
+            >
+
+        </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@id/appbar"
+        android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:padding="30dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="1.Information you provide to us \n\n
+We collect information you provide directly to us, such as when you create or modify your account, contact customer support, or otherwise communicate with us. This information may include: name, email, phone number, postal address, and any other information you choose to provide. Information that you provide to us for in the form of support to our platform."
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="16sp"
+        android:padding="30dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:text="2.Use of Information \n\na.To facilitate your usage of our services.\nb.To process or facilitate payments for Services \nc.To Contact you with promotional offerings or other communications that may be of interest to you\nd.To contact you in connection with your Services\ne.To perform internal operations necessary to provide our Services, troubleshooting software bugs and operational problems, to conduct data analysis, testing, research, and to monitor and analyse usage and activity trends."
+        android:layout_below="@+id/textView"
+        />
+    </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

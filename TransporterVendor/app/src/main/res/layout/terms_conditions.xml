@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_alignParentTop="true"
+        android:id="@+id/appbar"
+        >
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/toolbar"
+                app:title="Terms And Conditions"
+                app:titleTextColor="@color/white"
+                >
+
+            </androidx.appcompat.widget.Toolbar>
+
+    </com.google.android.material.appbar.AppBarLayout>
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:padding="30dp"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:textColor="@color/black"
+        android:text="1.Confidentiality \n\n
+a.The Fast Dispatch app shall in no event be liable for any direct, indirect, special, consequential or other damages arising out of the use of this app or any information or images contained therein, including without limitation, lost profits, business interruption and loss of programs or other data. Each party is obliged to treat any data and information not publicly accessible as confidential and to use these exclusively for the purpose intended. \n\n
+
+b.The confidentiality rule does not apply to data and information that must be passed on to third parties, especially public authorities, due to legal obligations. The other party is to be informed about such obligation without delay."
+        android:layout_below="@id/appbar"
+        />
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Transporter Vendor</string>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="empty_directory">Empty Directory</string>
+
+    <string name="storage_removed">Storage was removed or unmounted.</string>
+
+    <string name="choose_file">Select a file</string>
+
+    <string name="error_selecting_file">Error selecting File</string>
+
+    <string name="internal_storage">Internal storage</string>
+    <string-array name="type">
+        <item>Choose Category</item>
+        <item>Truck Owner</item>
+        <item>Transport Company</item>
+        <item>Packers and Movers</item>
+    </string-array>
+    <string-array name="state_list">
+        <item> आंध्र प्रदेश </item>
+        <item> अरुणाचल प्रदेश </item>
+        <item> असम </item>
+        <item> बिहार </item>
+        <item> छत्तीसगढ़ </item>
+        <item> गोवा </item>
+        <item> गुजरात </item>
+        <item> हरियाणा </item>
+        <item> हिमाचल प्रदेश </item>
+        <item> झारखंड  </item>
+        <item> कर्नाटक </item>
+        <item> केरला </item>
+        <item> मध्य प्रदेश </item>
+        <item> महाराष्ट्र </item>
+        <item> मणिपुर </item>
+        <item> मेघालय  </item>
+        <item> मिजोरम </item>
+        <item> नागालैण्ड </item>
+        <item> नई दिल्ली </item>
+        <item> उड़ीसा </item>
+        <item> पंजाब </item>\
+        <item> राजस्थान </item>
+        <item> सिक्किम </item>
+        <item> तमिल नाडु </item>
+        <item> तेलंगाना </item>
+        <item> त्रिपुरा </item>
+        <item> उत्तर प्रदेश </item>
+        <item> उत्तराखण्ड </item>
+        <item> पश्चिम बंगाल </item>
+    </string-array>
+</resources>
